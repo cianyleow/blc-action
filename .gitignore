@@ -1,7 +1,1 @@
 node_modules/
-dist/donotedit
-dist/error.html
-dist/error.css
-dist/regexps.js
-dist/user_agent.after.yaml
-dist/user_agent.before.yaml
