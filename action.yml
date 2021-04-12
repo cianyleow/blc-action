@@ -1,0 +1,21 @@
+name: 'Broken Link Checker'
+description: 'Check broken links with node'
+inputs:
+  url:
+    description: 'The main URL to check'
+    required: true
+  recursive:
+    description: 'Whether to crawl the site recursively'
+    required: false
+    default: false
+  quiet:
+    description: 'Logging level = quiet'
+    required: false
+    default: true
+  silent:
+    description: 'Logging level = silent'
+    required: false
+    default: false
+runs:
+  using: 'node14'
+  main: 'dist/index.js'
