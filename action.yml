@@ -17,5 +17,7 @@ inputs:
     required: false
     default: false
 runs:
-  using: 'node14'
-  main: 'dist/index.js'
+  using: 'composite'
+  steps:
+    - run: node dist/index.js
+      shell: bash
